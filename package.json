@@ -1,0 +1,13 @@
+{
+  "name": "230413_headless_ui",
+  "version": "1.0.0",
+  "repository": "https://github.com/ics-creative/230413_headless_ui.git",
+  "author": "ics-matsumoto <matsumoto@ics-web.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:hui-react && npm run build:hui-vue && npm run build:radix-react",
+    "build:hui-react": "cd hui-react && npm run build",
+    "build:hui-vue": "cd hui-vue && npm run build",
+    "build:radix-react": "cd radix-react && npm run build"
+  }
+}

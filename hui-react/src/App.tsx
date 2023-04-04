@@ -5,7 +5,7 @@ import styles from "./App.module.scss";
 function App() {
   return (
     <div className={styles.root}>
-      <h1>headless uiのListboxを使ったサンプル(React)</h1>
+      <h1>Headless uiのListboxを使ったサンプル(React)</h1>
       <p>
         <a href="https://headlessui.com/react/listbox">Listbox (Select)</a>
         を使ったサンプルです。

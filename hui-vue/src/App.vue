@@ -5,7 +5,7 @@ import ListStyledSample from "./ListStyledSample.vue";
 
 <template>
   <div class="app">
-    <h1>headless uiのListboxを使ったサンプル(Vue.js)</h1>
+    <h1>Headless uiのListboxを使ったサンプル(Vue.js)</h1>
     <p>
       <a href="https://headlessui.com/react/listbox">Listbox (Select)</a>
       を使ったサンプルです。

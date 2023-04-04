@@ -5,7 +5,8 @@
   "author": "ics-matsumoto <matsumoto@ics-web.jp>",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build:hui-react && npm run build:hui-vue && npm run build:radix-react",
+    "build": "yarn build:hui-react && yarn build:hui-vue && yarn build:radix-react && yarn build:hui-react-min",
+    "build:hui-react-min": "cd hui-react-min && npm run build",
     "build:hui-react": "cd hui-react && npm run build",
     "build:hui-vue": "cd hui-vue && npm run build",
     "build:radix-react": "cd radix-react && npm run build"

@@ -11,7 +11,7 @@ import ListStyledSample from "./ListStyledSample.vue";
       を使ったサンプルです。
     </p>
     <section>
-      <h2>スタイリング前のリストボックス</h2>
+      <h2 id="plain">スタイリング前のリストボックス</h2>
       <p>
         機能のみでスタイルを一切指定していない例です。
         スタイルが当たっていない状態では選択・フォーカスされている項目がわからないので、それらは絵文字（👉✅）を追加して示しています。
@@ -20,7 +20,7 @@ import ListStyledSample from "./ListStyledSample.vue";
       <ListPlainSample />
     </section>
     <section>
-      <h2>独自のスタイルを追加したリストボックス</h2>
+      <h2 id="styled">独自のスタイルを追加したリストボックス</h2>
       <p>
         上の例に独自のスタイルを追加した例です。 ここでは簡単に利用できるScoped
         CSS + Sass(scss)を使用していますが、Styled

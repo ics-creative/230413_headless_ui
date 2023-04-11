@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+// Headless UIのListBoxを利用したオリジナルのリストコンポーネント。
+// スタイルは未適用なのでボタンやリストはブラウザのデフォルトで表示されます。
+// スタイルを適用した例はListboxStyled.vueを参照してください。
+
 import { computed } from "vue";
 import {
   Listbox,

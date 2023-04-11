@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// スタイルつきのリストコンポーネント（ListboxStyled）を利用するサンプル。
+
 import { ref, computed } from "vue";
 import ListboxStyled from "./components/ListboxStyled.vue";
 import StageBox from "./components/StageBox.vue";

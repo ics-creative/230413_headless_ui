@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+// ListboxPlainにオリジナルのスタイルやアニメーションを適用したリストコンポーネント。
+
 import { computed } from "vue";
 import {
   Listbox,

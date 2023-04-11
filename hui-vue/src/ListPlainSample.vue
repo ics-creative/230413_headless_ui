@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// スタイルなしのリストコンポーネント（ListboxPlain）を利用するサンプル。
+
 import { ref, computed } from "vue";
 import ListboxPlain from "./components/ListboxPlain.vue";
 import StageBox from "./components/StageBox.vue";

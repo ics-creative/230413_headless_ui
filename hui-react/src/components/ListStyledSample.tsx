@@ -11,6 +11,9 @@ const cats = [
   { id: "item-5", text: "ブリティッシュ・ショートヘア" },
 ];
 
+/**
+ * スタイルつきのリストコンポーネント（ListboxStyled）を利用するサンプル。
+ */
 export const ListboxStyledSample = () => {
   const [value, setValue] = useState<string | null>(null);
   const selectedCatName = cats.find((cat) => cat.id === value)?.text;

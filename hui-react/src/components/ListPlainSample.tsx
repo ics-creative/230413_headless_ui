@@ -10,6 +10,9 @@ const cats = [
   { id: "item-5", text: "ブリティッシュ・ショートヘア" },
 ];
 
+/**
+ * スタイルなしのリストコンポーネント（ListboxPlain）を利用するサンプル。
+ */
 export const ListboxPlainSample = () => {
   const [value, setValue] = useState<string | null>(null);
   const selectedCatName = cats.find((cat) => cat.id === value)?.text;

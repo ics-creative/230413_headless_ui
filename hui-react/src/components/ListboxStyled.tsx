@@ -23,6 +23,9 @@ const findItem = (items: ListItem[], value: string | null) =>
 const classes = (...names: (string | false)[]) =>
   names.filter(Boolean).join(" ");
 
+/**
+ * ListboxPlainにオリジナルのスタイルやアニメーションを適用したリストコンポーネント。
+ */
 export const ListboxStyled: FC<Props> = ({
   items,
   value,

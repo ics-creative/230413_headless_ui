@@ -19,6 +19,11 @@ type Props = {
 const findItem = (items: ListItem[], value: string | null) =>
   items.find((item) => item.id === value);
 
+/**
+ * Headless UIのListBoxを利用したオリジナルのリストコンポーネント。
+ * スタイルは未適用なのでボタンやリストはブラウザのデフォルトで表示されます。
+ * スタイルを適用した例はListboxStyled.tsxを参照してください。
+ */
 export const ListboxPlain: FC<Props> = ({
   items,
   value,

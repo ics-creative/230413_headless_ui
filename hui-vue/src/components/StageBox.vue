@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// サンプル画面の表示用に背景色をつけるコンポーネント。
 defineProps<{
   hasBg?: boolean;
 }>();

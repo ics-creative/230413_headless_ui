@@ -8,6 +8,9 @@ type Props = {
 const classes = (...names: (string | false)[]) =>
   names.filter(Boolean).join(" ");
 
+/**
+ * サンプル画面の表示用に背景色をつけるコンポーネント。
+ */
 export const StageBox: FC<PropsWithChildren<Props>> = ({
   hasBg = false,
   children,
